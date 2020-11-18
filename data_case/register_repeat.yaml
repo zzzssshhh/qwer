@@ -1,0 +1,10 @@
+- casedata: {'mobilephone':'15127025433','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}
+- casedata: {'mobilephone':'15127025434','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}
+- casedata: {'mobilephone':'15127025435','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}
+- casedata: {'mobilephone':'15127025436','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}
+- casedata: {'mobilephone':'15127025437','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}

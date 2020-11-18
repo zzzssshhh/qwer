@@ -1,0 +1,6 @@
+- casedata: {'mobilephone':'18586820529','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}
+
+
+- casedata: {'mobilephone':'133','pwd':'123456','regname':'cxm'}
+  expect: {"status":0,"code":"20109","data":None,"msg":"手机号码格式不正确"}

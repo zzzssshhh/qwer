@@ -1,0 +1,9 @@
+- casedata: {'mobilephone':'18710698529','pwd':'123457'}
+  expect: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+
+- casedata: {'mobilephone':'','pwd':'123456'}
+  expect: {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+
+- casedata: {'mobilephone':'18710698529','pwd':''}
+  expect: {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+

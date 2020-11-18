@@ -1,0 +1,9 @@
+- casedata: {'mobilephone':'15127025442','pwd':'123456','regname':'cxm'}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
+- casedata: {'mobilephone':'15127025443','pwd':'123456','regname':'cxm'}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
+- casedata: {'mobilephone':'15127025444','pwd':'123456','regname':'cxm'}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
+- casedata: {'mobilephone':'15127025445','pwd':'123456','regname':'cxm'}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
+
